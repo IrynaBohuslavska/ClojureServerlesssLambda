@@ -10,7 +10,7 @@ provider:
   lambdaHashingVersion: 20201221
 
 package:
-  artifact: target/calc-0.1.0-SNAPSHOT-standalone.jar
+  artifact: target/calcstandalone.jar
 
 functions:
   simpleLambda:
@@ -20,4 +20,4 @@ functions:
     events:
       - httpApi:
           method: POST
-          path: /calc
+          path: /dev/calc
